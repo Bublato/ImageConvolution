@@ -2,7 +2,9 @@
 
 Bachelor thesis project. Plugin that implements paralel image convolution for supercomputers by using OpenMPI.
 
-Prerequisities to run are having OpenMPI and Fiji installed. 
+Prerequisities to run are having OpenMPI, Fiji and Maven installed. 
+
+You will need to build this plugin via mvn build command. 
 
 To install plugin run Fiji and copy mpi.jar and ImageConvolution.jar into Fiji->plugins folder. After that restart Fiji and the plugin should be installed. Mpi.jar can be found it lib folder of this project and ImageConvolution.jar can be found in target folder of this project. 
 
